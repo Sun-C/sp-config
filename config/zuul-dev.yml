@@ -44,8 +44,8 @@ management:
       exposure:
         include: hystrix.stream
 #默认转发规则
-#zuul:
-#  routes:
-#    item-service: /item-service/**
-#    user-service: /user-service/**
-#    order-service: /order-service/**
+zuul:
+  routes:
+    item-service: /item-service/**
+    user-service: /user-service/**
+    order-service: /order-service/**
